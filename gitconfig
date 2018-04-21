@@ -3,6 +3,7 @@
 
 [alias]
     co = checkout
+    ci = commit
     st = status
     dt = difftool
     mt = mergetool
