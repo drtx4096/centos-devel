@@ -1,0 +1,17 @@
+Host *
+	UserKnownHostsFile /dev/null
+	StrictHostKeyChecking false
+Host ubu
+	IdentityFile ~/.ssh/id_ed25519
+	User user
+	UserKnownHostsFile /dev/null
+	StrictHostKeyChecking false
+Host 192.168.159.128
+	IdentityFile ~/.ssh/id_ed25519
+	User user
+	UserKnownHostsFile /dev/null
+	StrictHostKeyChecking false
+Host 127.0.0.1
+	User user
+	UserKnownHostsFile /dev/null
+	StrictHostKeyChecking false
